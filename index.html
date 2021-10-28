@@ -1,0 +1,37 @@
+<html>  
+<head>  
+    <title> Age and Zodiac signs </title>
+<script src="app.js">  </script> 
+<link rel="stylesheet" href="style.css"/> 
+</head>  
+<body>  
+<center id ="mainbox">  
+<h2 > Calculate Age from Date of Birth </h2>   <br> <br> 
+  
+<!-- Choose a date and enter in input field -->  
+<b> Enter Date of Birth: <input type=date id = DOB> </b>  
+<span id = "message" > </span> <br><br> <br>   
+  
+<!-- Choose a date and enter in input field -->  
+<a id="animated" class="button" type="submit" onclick = "ageCalculator()"> Calculate age </a> <br><br>  
+<h3 id="result" ></h3>   
+</center> 
+
+
+
+<div id = "box">
+    <h1> What is your Zodiac signs?</h1>
+    <h3>Check it below </h3>
+    </div>
+    <h2> Enter your birthday. </h2>
+    <p>Month:<input type="number" id="month" min="1" max="12" ></p>
+    <p> Day:<input type="number" id="day" min="1" max="31"></p>
+    <a id="animated" onclick="zodiac()"  class="button">Find your zodiac sign! </a>
+    <p id="photo"></p>
+    <p id= "space"> Your zodiac sign is <span id="output"></span> </p>
+    
+    <p id="characteristic"></p>
+    <img src="http://sweetclipart.com/multisite/sweetclipart/files/astrology_set_clipart_color_2.png" width=32%>
+</div>    
+</body>  
+</html>  
